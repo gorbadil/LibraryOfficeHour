@@ -18,6 +18,7 @@ const pages = [
   { name: "Yayımcı", path: "/publisher" },
   { name: "Kategoriler", path: "/category" },
   { name: "Yazar", path: "/author" },
+  { name: "Kitap", path: "/book" },
 ];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 

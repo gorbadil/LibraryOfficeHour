@@ -28,6 +28,7 @@ function Category() {
     });
     setReload(false);
   }, [reload]);
+
   const handleDelete = (id) => {
     deleteCategory(id).then(() => {
       setReload(true);
@@ -132,14 +133,6 @@ function Category() {
             {category.description}
           </div>
         ))}
-
-        <select>
-          {category.map((category) => (
-            <option key={category.id} value={category.id}>
-              {category.name}
-            </option>
-          ))}
-        </select>
       </div>
     </>
   );
